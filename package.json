@@ -1,11 +1,15 @@
 {
-  "name": "quiz-system-ts-project9",
-  "version": "1.0.0",
+  "name": "@sydjalees/quiz-system-typescript",
+  "version": "1.0.2",
   "description": "This is a Simple Cli based Quiz system project with typescript",
   "main": "index.js",
   "type": "module",
-  "publishConfig": {"access": "public"},
-  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "quiz-system-ts-project9": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +17,7 @@
   "author": "SAYYED JALEES AKBAR SHAH",
   "license": "MIT",
   "dependencies": {
+    "@sydjalees/quiz-system-typescript": "^1.0.2",
     "@types/chalk": "^2.2.0",
     "chalk": "^5.3.0",
     "inquirer": "^9.2.23"
