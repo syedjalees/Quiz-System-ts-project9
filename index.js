@@ -150,5 +150,5 @@ if (score == total_score) {
     console.log(chalk.yellow(`Congratulations Your Score is : ${score}/${total_score}`));
 }
 else {
-    console.log(chalk.red(`Your Score is : ${score}/${total_score}`));
+    console.log(chalk.yellow(`\nYour Score is : ${score}/${total_score}`));
 }
